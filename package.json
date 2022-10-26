@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/1539042750/uni-shop#readme",
   "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.22",
     "@escook/request-miniprogram": "^0.2.1"
   }
 }
