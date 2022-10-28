@@ -52,9 +52,22 @@
     "mp-weixin" : {
         "appid" : "wxad6c4dcba8fda3c5",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            // 外添加
+            "checkSiteMap": false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        // 外添加
+           "permission": {
+                  "scope.userLocation": {
+                    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+                  }
+                },
+                "requiredPrivateInfos": [
+                  "chooseLocation",
+                  "getLocation", 
+                  "chooseAddress"
+                  ]
     },
     "mp-alipay" : {
         "usingComponents" : true
