@@ -9,16 +9,28 @@
   "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
       "path": "pages/home/home",
-      "style": {}
+      "style": {
+      "navigationBarTitleText": "双优商城",
+      "enablePullDownRefresh": false
+      }
     }, {
       "path": "pages/cate/cate",
-      "style": {}
+      "style": {
+          "navigationBarTitleText": "商品分类",
+          "enablePullDownRefresh": false
+      }
     }, {
       "path": "pages/cart/cart",
-      "style": {}
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "enablePullDownRefresh": false
+      }
     }, {
       "path": "pages/my/my",
-      "style": {}
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "enablePullDownRefresh": false
+      }
     }
   ],
   "subPackages": [{
